@@ -1,0 +1,30 @@
+[
+  {
+    "ticket_id": "INC-1001",
+    "sender": "sarah.finance@proglite-demo.com",
+    "timestamp": "2026-09-30 09:15:00",
+    "subject": "URGENT: Payroll export failing due to M365 permission error",
+    "body": "Hi IT team, I cannot run the monthly payroll batch export. It keeps throwing error: 'M365 Access Denied: Insufficient Graph API Scope'. Today is payroll processing deadline. Please help immediately!"
+  },
+  {
+    "ticket_id": "INC-1002",
+    "sender": "rajesh.dev@proglite-demo.com",
+    "timestamp": "2026-09-30 10:02:15",
+    "subject": "VPN keeps dropping every 10 minutes",
+    "body": "Since morning the corporate OpenVPN client disconnects with a TLS handshake timeout error. I've restarted my laptop twice but no luck. Working remotely from home."
+  },
+  {
+    "ticket_id": "INC-1003",
+    "sender": "ananya.marketing@proglite-demo.com",
+    "timestamp": "2026-09-30 10:45:30",
+    "subject": "Suspicious email with invoice attachment",
+    "body": "I received an email claiming to be from our CEO asking to review an urgent PDF invoice from a strange domain (ceo-proglite-verify.com). I haven't clicked it. Is this a phishing attack?"
+  },
+  {
+    "ticket_id": "INC-1004",
+    "sender": "vijay.ops@proglite-demo.com",
+    "timestamp": "2026-09-30 11:20:00",
+    "subject": "Need second monitor cable for desk 4B",
+    "body": "Hi, I moved to a new desk in 4B. Need an HDMI to USB-C display converter cable whenever IT stock has spare. No rush."
+  }
+]
