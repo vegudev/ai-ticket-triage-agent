@@ -1,0 +1,74 @@
+[
+  {
+    "ticket_id": "INC-1001",
+    "sender": "sarah.finance@proglite-demo.com",
+    "timestamp": "2026-09-30 09:15:00",
+    "subject": "URGENT: Payroll export failing due to M365 permission error",
+    "body": "Hi IT team, I cannot run the monthly payroll batch export. It keeps throwing error: 'M365 Access Denied: Insufficient Graph API Scope'. Today is payroll processing deadline. Please help immediately!",
+    "triage_metadata": {
+      "category": "M365 / Cloud Operations",
+      "priority": "P1 - Critical",
+      "sentiment": "Urgent/Frustrated",
+      "root_cause_hypothesis": "Missing Azure AD Graph API application permissions for Payroll Service Principal.",
+      "suggested_troubleshooting": "Grant temporary elevated scope 'User.ReadWrite.All' via Microsoft Entra ID admin portal.",
+      "routing_channel": "#m365-admins",
+      "can_auto_resolve": false,
+      "triaged_at": "2026-09-30 11:39:47",
+      "status": "TRIAGED_READY_FOR_DISPATCH"
+    }
+  },
+  {
+    "ticket_id": "INC-1002",
+    "sender": "rajesh.dev@proglite-demo.com",
+    "timestamp": "2026-09-30 10:02:15",
+    "subject": "VPN keeps dropping every 10 minutes",
+    "body": "Since morning the corporate OpenVPN client disconnects with a TLS handshake timeout error. I've restarted my laptop twice but no luck. Working remotely from home.",
+    "triage_metadata": {
+      "category": "Network / VPN",
+      "priority": "P2 - High",
+      "sentiment": "Frustrated",
+      "root_cause_hypothesis": "Expired SSL/TLS client certificate or UDP port 1194 throttling by local ISP.",
+      "suggested_troubleshooting": "Push refreshed client ovpn configuration bundle with TCP 443 fallback via Intune.",
+      "routing_channel": "#network-team",
+      "can_auto_resolve": true,
+      "triaged_at": "2026-09-30 11:39:47",
+      "status": "TRIAGED_READY_FOR_DISPATCH"
+    }
+  },
+  {
+    "ticket_id": "INC-1003",
+    "sender": "ananya.marketing@proglite-demo.com",
+    "timestamp": "2026-09-30 10:45:30",
+    "subject": "Suspicious email with invoice attachment",
+    "body": "I received an email claiming to be from our CEO asking to review an urgent PDF invoice from a strange domain (ceo-proglite-verify.com). I haven't clicked it. Is this a phishing attack?",
+    "triage_metadata": {
+      "category": "Security Incident",
+      "priority": "P1 - Critical",
+      "sentiment": "Concerned",
+      "root_cause_hypothesis": "Potential spear-phishing attack impersonating executive management.",
+      "suggested_troubleshooting": "Quarantine sender domain (ceo-proglite-verify.com) in M365 Defender, pull email from inboxes.",
+      "routing_channel": "#security-ops",
+      "can_auto_resolve": false,
+      "triaged_at": "2026-09-30 11:39:48",
+      "status": "TRIAGED_READY_FOR_DISPATCH"
+    }
+  },
+  {
+    "ticket_id": "INC-1004",
+    "sender": "vijay.ops@proglite-demo.com",
+    "timestamp": "2026-09-30 11:20:00",
+    "subject": "Need second monitor cable for desk 4B",
+    "body": "Hi, I moved to a new desk in 4B. Need an HDMI to USB-C display converter cable whenever IT stock has spare. No rush.",
+    "triage_metadata": {
+      "category": "Hardware / Peripheral",
+      "priority": "P4 - Low",
+      "sentiment": "Neutral",
+      "root_cause_hypothesis": "Standard peripheral hardware request for workstation setup.",
+      "suggested_troubleshooting": "Check IT inventory cabinet in Block B, log asset barcode in Jira Service Management.",
+      "routing_channel": "#it-helpdesk",
+      "can_auto_resolve": true,
+      "triaged_at": "2026-09-30 11:39:48",
+      "status": "TRIAGED_READY_FOR_DISPATCH"
+    }
+  }
+]
