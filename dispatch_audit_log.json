@@ -1,0 +1,66 @@
+[
+  {
+    "ticket_id": "INC-1001",
+    "priority": "P1 - Critical",
+    "actions": [
+      {
+        "status": "DELIVERED",
+        "channel": "#m365-admins"
+      },
+      {
+        "status": "JIRA_LOGGED",
+        "queue": "M365 / Cloud Operations"
+      }
+    ],
+    "dispatched_at": "2026-09-30 11:39:49"
+  },
+  {
+    "ticket_id": "INC-1002",
+    "priority": "P2 - High",
+    "actions": [
+      {
+        "status": "DELIVERED",
+        "channel": "#network-team"
+      },
+      {
+        "status": "DISPATCHED_TO_USER",
+        "recipient": "rajesh.dev@proglite-demo.com"
+      },
+      {
+        "status": "JIRA_LOGGED",
+        "queue": "Network / VPN"
+      }
+    ],
+    "dispatched_at": "2026-09-30 11:39:49"
+  },
+  {
+    "ticket_id": "INC-1003",
+    "priority": "P1 - Critical",
+    "actions": [
+      {
+        "status": "DELIVERED",
+        "channel": "#security-ops"
+      },
+      {
+        "status": "JIRA_LOGGED",
+        "queue": "Security Incident"
+      }
+    ],
+    "dispatched_at": "2026-09-30 11:39:50"
+  },
+  {
+    "ticket_id": "INC-1004",
+    "priority": "P4 - Low",
+    "actions": [
+      {
+        "status": "DISPATCHED_TO_USER",
+        "recipient": "vijay.ops@proglite-demo.com"
+      },
+      {
+        "status": "JIRA_LOGGED",
+        "queue": "Hardware / Peripheral"
+      }
+    ],
+    "dispatched_at": "2026-09-30 11:39:50"
+  }
+]
